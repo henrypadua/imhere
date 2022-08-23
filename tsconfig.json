@@ -15,6 +15,12 @@
          ],
          "@hooks/*": [
             "./src/hooks/*"
+         ],
+         "@DTOs/*": [
+            "./src/DTOs/*"
+         ],
+         "@utils/*": [
+            "./src/utils/*"
          ]
       }
    }
