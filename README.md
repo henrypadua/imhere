@@ -83,6 +83,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Expo
 - Typescript
+- React Native
 
 > Veja o arquivo [package.json](https://github.com/henrypadua/imhere/blob/master/package.json)
 

@@ -17,6 +17,13 @@ export function Home() {
    const [participantName, setParticipantName] = useState('');
 
    function handleParticipantAdd() {
+      if (participantName === '') {
+         return Alert.alert(
+            'Atenção',
+            'Por favor, digite um nome para o participante'
+         );
+      }
+
       if (participants.includes(participantName)) {
          return Alert.alert(
             'Participante existe',
